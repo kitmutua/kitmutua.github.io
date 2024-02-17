@@ -160,7 +160,7 @@ def primes_finder(n):
     # empty list to append discovered primes to
     primes_list = []
 
-    # iterate until list is empty
+    # iterate until the list is empty
     while number_range:
         prime = number_range.pop()
         primes_list.append(prime)
@@ -183,7 +183,7 @@ primes_finder(1000000)
 
 That is pretty cool!
 
-I hoped you enjoyed learning about Primes, and one way to search for them using Python.
+I hope you enjoyed learning about Primes, and one way to search for them using Python.
 
 ---
 
@@ -191,7 +191,7 @@ I hoped you enjoyed learning about Primes, and one way to search for them using 
 
 In the real world - we would need to make a consideration around the pop() method when used on a Set as in some cases it can be a bit inconsistent.
 
-The pop() method will usually extract the lowest element of a Set. Sets however are, by definition, unordered. The items are stored internally with some order, but this internal order is determined by the hash code of the key (which is what allows retrieval to be so fast). 
+The pop() method will usually extract the lowest element of a Set. Sets however are, by definition, unordered. The items are stored internally in some order, but this internal order is determined by the hash code of the key (which is what allows retrieval to be so fast). 
 
 This hashing method means that we can't 100% rely on it successfully getting the lowest value. In very rare cases, the hash provides a value that is not the lowest.
 
