@@ -5,7 +5,7 @@ image: "/posts/association-rules-title-img.png"
 tags: [Association Rule Learning, Python]
 ---
 
-In this project we use Association Rule Learning to analyse the transactional relationships & dependencies between products in the alcohol section of a grocery store.
+In this project, we use Association Rule Learning to analyze the transactional relationships & dependencies between products in the alcohol section of a grocery store.
 
 # Table of contents
 
@@ -35,11 +35,11 @@ They have provided us a sample of 3,500 alcohol transactions - our task is fairl
 <br>
 ### Actions <a name="overview-actions"></a>
 
-Based upon the tasks at hand - we apply Association Rule Learning, specifically *Apriori* to examine & analyse the strength of relationship between different products within the transactional data.
+Based upon the tasks at hand - we apply Association Rule Learning, specifically *Apriori* to examine & analyze the strength of the relationship between different products within the transactional data.
 
-We firstly installed the apyori package, which contains all of the required functionality for this task.
+We first installed the apyori package, which contains all of the required functionality for this task.
 
-We then needed to bring in the sample data, and get it into the right format for the Apriori algorithm to deal with.
+We then needed to bring in the sample data and get it into the right format for the Apriori algorithm to deal with.
 
 From there we apply the Apriori algorithm to provide us with several different relationship metrics, namely:
 
@@ -48,7 +48,7 @@ From there we apply the Apriori algorithm to provide us with several different r
 * Expected Confidence
 * Lift
 
-These metrics examine product relationships in different ways, so we utilise each to put forward ideas that address each of the tasks at hand.  You can read more about these metrics, and the Apriori algorithm in the relevant section below.
+These metrics examine product relationships in different ways, so we utilize each to put forward ideas that address each of the tasks at hand.  You can read more about these metrics, and the Apriori algorithm in the relevant section below.
 
 <br>
 <br>
