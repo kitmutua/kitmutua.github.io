@@ -23,7 +23,7 @@ avatar_image: /img/Picture Cropped.jpg
 #-------------------------------
 # Contact links
 linkedln: "https://www.linkedin.com/in/daniel-kithongo-mutua/"
-github: "https://github.com/kitmutua"
+github: "https://github.com/kitmutua/kitmutua.github.io"
 paginate: 6
 paginate_path: "/page/:num"
 
@@ -50,4 +50,5 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
