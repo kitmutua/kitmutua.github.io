@@ -10,7 +10,7 @@ This is a Tableau Dashboard that tracks global Earthquake activity across 30 day
 
 **Top 10 Largest Earthquakes**: the top 10 countries based on the magnitude of the earthquake.
 
-**Earthquake Map**: The earthquake magnitude for various countries around the globe. The color code ranges from green to red. Green is the minimum and red is the maximum. The color shade will change depending on how close the magnitude of the specific country is to the minimum or maximum.
+**Earthquake Map**: The earthquake magnitude for various countries around the globe. The color code ranges from green to red. Green is the minimum, and red is the maximum. The color shade will change depending on how close the magnitude of the specific country is to the minimum or maximum.
 
 **Percentage Earthquakes by Location Broad**: the share of the summation of earthquake magnitudes of a given region as a percentage of the cumulative sum of all the regions.
 
